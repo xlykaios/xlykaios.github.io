@@ -1,0 +1,131 @@
+		/* Fonts */
+
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+		@import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.003/web/hack.css");
+
+		body {
+			background-color: #152133;
+		}
+
+		a { color: inherit; }
+		a:hover { color: #D3A032; }
+		#code a { color: #F6246B; }
+		.is-child a:hover { color: grey; text-decoration: none; }
+
+		#main {
+			border-radius: 5px;
+			background-color: #1C222F;
+			color: cyan;
+			-webkit-box-shadow: 4px 1px 66px -10px rgba(10,20,35,1);
+			-moz-box-shadow: 4px 1px 66px -10px rgba(10,20,35,1);
+			box-shadow: 4px 1px 66px -10px rgba(10,20,35,1);
+		}
+
+		.circles-container {
+			padding-left: 4px;
+			padding-top: 3px;
+		}
+
+		#taskbar {
+			padding-top: 5px;
+			padding-bottom: 1px;
+		}
+
+		#code {
+			padding-top: 10px;
+			font-family: 'Hack';
+			color: grey;
+		}
+
+		#file {
+			border-right: 1px solid #181d28;
+			padding: 10px;
+			padding-top: 15px;
+			padding-left: 20px;
+			padding-bottom: 325px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+		}
+
+		#file span {
+			letter-spacing: 0.76px;
+			cursor: default;
+		}
+
+		.is-first-circle, .is-second-circle, .is-third-circle {
+			width: 15px;
+			height: 15px;
+			display: inline-block !important;
+		}
+
+		.is-first-circle {  
+			background-image: linear-gradient(to right, red, #d31756); 
+		}
+
+		.is-second-circle { 
+			background-image: linear-gradient(to right, #f4bd46, #edab1e); 
+		}
+
+		.is-third-circle { 
+			background-image: linear-gradient(to right, #54bc62, #27C93F); 
+		}
+
+		.is-father {
+			font-weight: 700;
+			color: #a0a5aa;
+			cursor: default;
+		}
+
+		.is-mother, .is-child {
+			color: white;
+		}
+
+		.is-child {
+			padding-left: 30px;
+			padding-bottom: 50px;
+		}
+
+		.fa-circle {
+			font-size: 10px;
+			color: #6CA9DE;
+			float: right;
+			margin-top: 3.5px;
+			margin-right: 10px;
+		}
+
+		.fa-folder {
+			color: #D3A032;
+		}
+
+		.fas, .far {
+			padding-right: 7px;
+		}
+
+		#code .col-1 {
+			color: #3A4252;
+			cursor: default;
+		}
+
+		/* Responsive Template */
+
+		@media (max-width: 770px) { 
+			#main {
+				width: 100% !important;
+			}
+
+			#file {
+				font-size: 13px;
+			}
+
+			#taskbar {
+				height: 25px;
+			}
+
+			.fa-folder, .fa-circle {
+				display: none;
+			}
+
+			.is-child {
+				padding-left: 10px;
+			}
+		}
