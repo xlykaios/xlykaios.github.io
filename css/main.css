@@ -13,7 +13,7 @@
 		.is-child a:hover { color: grey; text-decoration: none; }
 
 		#main {
-			border-radius: 5px;
+			border-radius: 10px;
 			background-color: #1C222F;
 			color: cyan;
 			-webkit-box-shadow: 4px 1px 66px -10px rgba(10,20,35,1);
