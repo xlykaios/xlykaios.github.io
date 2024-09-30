@@ -5,6 +5,7 @@
 
 		body {
 			background-color: #152133;
+			font-size: 1rem;
 		}
 
 		a { color: inherit; }
@@ -129,3 +130,21 @@
 				padding-left: 10px;
 			}
 		}
+		@media only screen and (max-width: 600px) {
+			#main {
+				width: 100%;
+				padding: 10px;
+			}
+			#code, #file {
+				padding: 5px;
+			}
+			body {
+				font-size: 0.775rem;
+			}
+			.h-100 {
+				height: auto;
+			}
+		}
+		
+		
+		
